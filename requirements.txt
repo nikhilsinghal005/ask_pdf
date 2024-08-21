@@ -1,0 +1,9 @@
+streamlit==1.37.0
+pdfplumber==0.11.4
+openai==1.42.0
+python-dotenv==0.19.1
+faiss-cpu==1.8.0
+pandas==2.2.2
+numpy==1.26.4
+langchain-community==0.0.38
+langchain==0.1.19
