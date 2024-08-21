@@ -29,15 +29,12 @@ This application allows users to upload PDF files, extract text, and query the c
 
    ```bash
    git clone https://github.com/your-repo-name/pdf-query-app.git
-   cd pdf-query-app`` 
+   cd pdf-query-app
 
 2.  **Install dependencies**:
     
-    bash
-    
-    Copy code
-    
-    `pip install -r requirements.txt` 
+    ```bash
+    pip install -r requirements.txt
     
 3.  **Set up environment variables**:
     
@@ -45,39 +42,25 @@ This application allows users to upload PDF files, extract text, and query the c
         
     -   Add your OpenAI API key and Slack API token:
         
-        env
-        
-        Copy code
-        
-        `OPENAI_KEY_PROJECT=your_openai_api_key
-        SLACK_BOT_TOKEN=your_slack_bot_token` 
+        ```bash
+        OPENAI_KEY_PROJECT=your_openai_api_key
+        SLACK_BOT_TOKEN=your_slack_bot_token
         
 4.  **Run the application**:
-    
-    bash
-    
-    Copy code
-    
-    `streamlit run main.py` 
+    ```bash 
+    streamlit run main.py
     
 
 ### Docker Setup
 
 1.  **Build the Docker image**:
     
-    bash
-    
-    Copy code
-    
-    `docker build -t ask-pdf-test .` 
+    ```bash
+    docker build -t ask-pdf-test .
     
 2.  **Run the Docker container**:
-    
-    bash
-    
-    Copy code
-    
-    `docker run -p 8501:8501 ask-pdf-test` 
+    ```bash
+    docker run -p 8501:8501 ask-pdf-test
     
 
 ### Dockerfile Explanation
